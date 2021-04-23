@@ -1,11 +1,11 @@
 // a node in list
 export default class Node {
     constructor(data, next = null) {
-        if ((typeof data) !== Number) {
+        if ((typeof data) !== "number") {
             throw 'the data has to be a number value!';
         }
         this.data = data;
-        if ((typeof data) === Node || next === null) {
+        if ((next instanceof Node) || next === null) {
             this.next = next;
         }
         else {
