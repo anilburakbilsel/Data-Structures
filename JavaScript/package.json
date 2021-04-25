@@ -1,0 +1,16 @@
+{
+  "name": "javascript",
+  "version": "1.0.0",
+  "description": "data structure implementations in js",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "test": "jasmine",
+    "start": "node index.js"
+  },
+  "author": "Anil Burak Bilsel",
+  "license": "ISC",
+  "devDependencies": {
+    "jasmine": "^3.7.0"
+  }
+}
