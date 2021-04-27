@@ -5,12 +5,20 @@
   "type": "module",
   "main": "index.js",
   "scripts": {
-    "test": "jasmine",
+    "test-init": "./node_modules/jasmine/bin/jasmine.js init",
+    "test": "./node_modules/jasmine/bin/jasmine.js",
     "start": "node index.js"
   },
   "author": "Anil Burak Bilsel",
   "license": "ISC",
   "devDependencies": {
-    "jasmine": "^3.7.0"
+    "jasmine": "^3.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/anilburakbilsel/Data-Structures.git"
+  },
+  "dependencies": {
+    "jasmine-node": "^3.0.0"
   }
 }
