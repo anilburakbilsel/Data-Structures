@@ -1,0 +1,1 @@
+An array is really the same as an address in memory that defines the beginning pf sequential data items.
